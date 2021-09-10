@@ -141,16 +141,17 @@ Youtube貼り付けここまで -->
                 <!-- STAGE2-1　ここまで -->
 
 <!-- STAGE2-2 を追加 -->
+                <div class="row">
+                  <div class="column">
 
-                <div class="column">
+                    <figure class="image__container">
+                      <img src="assets/images/stage.png" alt="">
+                    </figure>
 
-                  <figure class="image__container">
-                    <img src="assets/images/stage.png" alt="">
-                  </figure>
+                    <answer-input v-bind:correct="correctAnswer['stage2']['q2']" v-on:answer-input="answerInput($event, 'stage2', 2)"></answer-input>
+                    <a class="link-hint" href="hint2.html" target="hint2">ヒントをみる ></a>
 
-                  <answer-input v-bind:correct="correctAnswer['stage2']['q2']" v-on:answer-input="answerInput($event, 'stage2', 2)"></answer-input>
-                  <a class="link-hint" href="hint2.html" target="hint2">ヒントをみる ></a>
-                　
+                  </div>
                 </div>
 
 <!-- 2-2追加ここまで -->
