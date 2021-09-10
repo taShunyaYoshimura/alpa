@@ -271,12 +271,12 @@ STAGE3-3追加　ここまで -->
       </div>
       <!-- STAGE3　ここまで -->
       <!-- STAGE3　ここから -->
-      <div v-if="next['stage2']" id="sectionStage3" class="stage">
+      <div v-if="next['stage3']" id="sectionStage3" class="stage">
 
         <!-- STAGE3-1問題セクション　ここから -->
         <section class="section">
           <div class="container">
-            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>家庭科室の課題とは</h2>
+            <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：4</span>家庭科室の課題とは</h2>
             <p class="text-center">黒板から得たメッセージは、「食物の廃棄問題」だった。<br>
               どうやら、廃棄にかかる費用がかかりすぎて小学校の運営が厳しくなったようだ。。<br>
               これらを解決するための最後の謎を解いていこう！</p>
@@ -296,8 +296,8 @@ STAGE3-3追加　ここまで -->
               v-on:answer-input="answerInput($event, 'stage3', 1, 'final')" は送信ボタンをクリックした時の動作を決める関数です。
               4番目の引数 'final' は最終ステージを表します。
             ------------------------------------------------------------------------------------------------------------------>
-            <answer-input v-bind:correct="correctAnswer['stage3']['q1']" v-on:answer-input="answerInput($event, 'stage3', 1, 'final')"></answer-input>
-            <a class="link-hint" href="hint3.html" target="hint3">ヒントをみる ></a>
+            <answer-input v-bind:correct="correctAnswer['stage4']['q1']" v-on:answer-input="answerInput($event, 'stage3', 1, 'final')"></answer-input>
+            <a class="link-hint" href="hint4.html" target="hint4">ヒントをみる ></a>
           </div>
         </section>
         <!-- STAGE3-1解答入力セクション　ここまで -->
